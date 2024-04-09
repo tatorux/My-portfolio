@@ -326,6 +326,7 @@ nav.bg-navport ul li a:hover::after {
 
 footer .container {
     text-align: center;
+    align-items: center;
 }
 
 footer .container p {
