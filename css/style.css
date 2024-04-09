@@ -313,8 +313,14 @@ nav.bg-navport ul li a:hover::after {
     margin-top: 10px;
 }
 
+#contact .container a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+]
 
-
+    
 
 /* footer */
 
