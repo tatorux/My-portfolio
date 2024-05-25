@@ -16,6 +16,7 @@
 
 h1 {
     font-family: "Fugaz One", sans-serif;
+    padding-left: 60px;
 }
 
 h2,
@@ -24,6 +25,7 @@ h4,
 h5,
 h6 {
     font-family: "Tauri", sans-serif;
+    padding-left: 60px;
 }
 
 p,
@@ -33,10 +35,13 @@ td,
 input,
 label {
     font-family: "Edu NSW ACT Foundation", cursive;
+    padding-left: 60px;
 }
 
 body {
     background: var(--background-color);
+    max-width: 100%;
+    align-items: center;
 }
 
 nav.bg-navport {
@@ -44,13 +49,9 @@ nav.bg-navport {
 }
 
 nav .navbar-brand img {
-    width: 100px;
+    width: 80px;
     margin: 0 30px;
-    margin-right: 300px;
-}
-
-nav.bg-navport ul li {
-    margin-left: 15px;
+    margin-right: 200px;
 }
 
 nav.bg-navport ul li a {
@@ -92,19 +93,16 @@ nav.bg-navport ul li a:hover::after {
 
 #hero {
     background: var(--background-color);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #hero .fondo {
     background: #000000;
-    background-size: 100%;
-    height: 700px;
+    height: 450px;
 }
 
 #hero .row {
-    align-items: center;
-}
-
-#hero .description {
     align-items: center;
 }
 
@@ -112,36 +110,34 @@ nav.bg-navport ul li a:hover::after {
     font-size: 70px;
     font-weight: 800;
     color: var(--secondary-color);
-    padding-left: 100px;
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 #hero .description p {
     font-size: var(--fonsize-p);
     font-weight: 600;
     color: var(--secondary-color);
-    margin-left: 100px;
     margin-bottom: 30px;
 }
 
 #hero .description a {
     color: #ffffff;
     padding: 7px 14px;
-    margin-left: 100px;
+    margin: 10px 60px;
     background: transparent;
     border-radius: 10px;
     text-decoration: none;
     border: 5px solid #ffffff;
     border-radius: 10px;
-    margin-bottom: 150px;
 }
 
 #hero .cont-foto .foto img {
-    width: 300px;
+    width: 350px;
     position: absolute;
-    margin-left: 100px;
-    margin-top: -150px;
+    padding-left: 100px;
+    margin-top: -120px;
+    padding-left: 90px;
 }
 
 
@@ -149,23 +145,24 @@ nav.bg-navport ul li a:hover::after {
 
 
 /* section about */
+#about{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #about .container {
     background: #ffffff;
-    margin-top: -45px;
 }
 
 #about .container h2 {
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 50px;
     font-size: var(--fontsize-title);
-    margin-left: 150px;
 }
 
 #about .container p {
     font-weight: 600;
-    margin-left: 150px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card {
@@ -176,27 +173,25 @@ nav.bg-navport ul li a:hover::after {
 
 
 .card h3 {
-    margin-left: 150px;
     font-weight: 400;
     margin-top: 40px;
 }
 
 .card img {
-    margin-left: 150px;
+    margin-left: 60px;
     width: 400px;
     margin-top: 15px;
 }
 
 .card h4 {
     margin-top: 20px;
-    margin-left: 150px;
     font-size: 20px;
 }
 
 .card p {
     font-weight: 600;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 
@@ -204,11 +199,12 @@ nav.bg-navport ul li a:hover::after {
 
 
 /* portfolio */
-
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
 #portfolio .container {
-    height: 600px;
     background: #000000;
-    background-size: 100%;
     text-align: center;
 }
 
@@ -216,57 +212,61 @@ nav.bg-navport ul li a:hover::after {
     font-size: 50px;
     font-weight: 400;
     color: #ffffff;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 60px;
 }
 
 #portfolio .container p {
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 25px;
-    margin-left: 50px;
+    margin-top: 15px;
     margin-bottom: 50px;
 }
 
 #portfolio .container a {
-    padding: 10px 15px;
+    display:  flex;
+    flex-wrap: wrap;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 60px;
     text-decoration: none;
     color: #ffffff;
     border: 3px solid #ffffff;
     border-radius: 15px;
     background: #000000;
-    margin-left: 30px;
+    margin-left: 60px;
+    margin-bottom: 16px;
 }
 
 #portfolio .container .cont-foto img {
-    width: 500px;
-    padding-top: 50px;
+    width: 550px;
+    padding-top: 60px;
     padding-bottom: 50px;
-    align-items: center;
 }
 
 /* Download */
 
-
+#down{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #down .container {
     background: #ffffff;
     text-align: center;
-    height: 600px;
 }
 
 #down .container h2 {
     font-family: "Tauri", sans-serif;
     font-size: 40px;
     font-weight: 600;
-    margin-top: 170px;
-    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 #down .container a {
     font-family: "Rubik Scribble", system-ui;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: 600;
     background: #000000;
@@ -275,7 +275,7 @@ nav.bg-navport ul li a:hover::after {
     border-radius: 10px;
     padding: 10px 15px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #down .container p {
@@ -284,7 +284,7 @@ nav.bg-navport ul li a:hover::after {
     font-weight: 600;
     font-size: 20px;
     padding-top: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
 }
 
 
@@ -295,14 +295,14 @@ nav.bg-navport ul li a:hover::after {
 #contact .container {
     background: #000000;
     text-align: center;
-    height: 600px;
+    height: 300px;
 }
 
 #contact .container h2 {
     color: #ffffff;
     font-weight: 600;
     font-size: 40px;
-    padding-top: 180px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -310,7 +310,6 @@ nav.bg-navport ul li a:hover::after {
     color: #ffffff;
     font-weight: 600;
     font-size: 20px;
-    margin-top: 10px;
 }
 
 #contact .container a{
@@ -318,7 +317,7 @@ nav.bg-navport ul li a:hover::after {
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
-]
+}
 
     
 
@@ -330,8 +329,8 @@ footer .container {
 }
 
 footer .container p {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 800;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -347,108 +346,15 @@ footer .container p {
 
 @media screen and (min-width:769px) and (max-width:992px) {
     nav .navbar-brand img {
-        width: 75px;
-        margin-right: 200px;
+        width: 60px;
+        margin-left: 0;
     }
 
-    nav.bg-navport ul li {
-        padding-left: 0;
-    }
-
-    nav.bg-navport ul li a {
-        color: var(--primary-color);
-        font-size: 18px;
-        font-weight: 600;
-        position: relative;
-        bottom: 2px;
-        left: 10px;
-        transition: .4s;
-    }
-
-    nav.bg-navport ul li a::after {
-        width: 0;
-        height: 2px;
-        background: transparent;
-        content: "";
-        position: absolute;
-        bottom: 2px;
-        left: 10px;
-        transition: .4s;
-    }
-
+    
     nav.bg-navport ul li a:hover::after {
         background: var(--primary-color);
-        width: 7%;
+        width: 0%;
     }
-
-    /* HERO */
-    #hero .fondo {
-        height: 800px;
-    }
-
-    #hero .cont-foto .foto img {
-        width: 200px;
-        padding-top: 120px;
-        margin-left: 300px;
-    }
-
-
-
-    /* ABOUT */
-    #about .container h2 {
-        margin-left: 40px;
-    }
-
-    #about .container p {
-        margin-left: 40px;
-    }
-
-    /* PORTFOLIO */
-    #portfolio .container .cont-foto img {
-        width: 300px;
-    }
-
-    #portfolio .container a {
-        margin-left: 15px;
-    }
-}
-
-@media screen and (min-width:601px) and (max-width:768px) {
-    nav .navbar-brand img {
-        width: 80px;
-        margin-right: 200px;
-    }
-
-    nav.bg-navport ul li {
-        padding-left: 0;
-    }
-
-    nav.bg-navport ul li a {
-        color: var(--primary-color);
-        font-size: 18px;
-        font-weight: 600;
-        position: relative;
-        bottom: 2px;
-        left: 10px;
-        transition: .4s;
-    }
-
-    nav.bg-navport ul li a::after {
-        width: 0;
-        height: 2px;
-        background: transparent;
-        content: "";
-        position: absolute;
-        bottom: 2px;
-        left: 10px;
-        transition: .4s;
-    }
-
-    nav.bg-navport ul li a:hover::after {
-        background: var(--primary-color);
-        width: 7%;
-    }
-
 
     /* HERO */
     #hero .fondo {
@@ -456,49 +362,59 @@ footer .container p {
     }
 
     #hero .cont-foto .foto img {
-        width: 150px;
+        width: 300px;
         padding-top: 120px;
-        margin-left: 300px;
+        margin-left: 160px;
     }
 
 
 
     /* ABOUT */
-    #about .container h2 {
-        margin-left: 50px;
-    }
-
-    #about .container p {
-        margin-left: 50px;
-    }
-
-    .card h3 {
-        margin-left: 50px;
-        font-weight: 400;
-        margin-top: 40px;
-    }
-
-    .card img {
-        margin-left: 50px;
-        width: 400px;
-        margin-top: 15px;
-    }
-
-    .card h4 {
-        margin-top: 20px;
-        margin-left: 50px;
-        font-size: 20px;
-    }
-
-    .card p {
-        font-weight: 600;
-        margin-top: 20px;
-        margin-bottom: 80px;
-    }
 
     /* PORTFOLIO */
     #portfolio .container .cont-foto img {
         width: 300px;
+    }
+
+    #portfolio .container a {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    nav .navbar-brand img {
+        width: 60px;
+        margin-left: 0;
+    }
+
+    
+    nav.bg-navport ul li a:hover::after {
+        background: var(--primary-color);
+        width: 0%;
+    }
+
+    /* HERO */
+    #hero .fondo {
+        height: 700px;
+    }
+
+    #hero .cont-foto .foto img {
+        width: 300px;
+        padding-top: 120px;
+        margin-left: 160px;
+    }
+
+
+
+    /* ABOUT */
+
+    /* PORTFOLIO */
+    #portfolio .container .cont-foto img {
+        width: 300px;
+    }
+
+    #portfolio .container a {
+        margin: 20px;
     }
 }
 
@@ -506,131 +422,36 @@ footer .container p {
 @media screen and (max-width: 600px) {
     nav .navbar-brand img {
         width: 60px;
-        margin-right: 100px;
+        margin-left: 0;
     }
 
-    nav.bg-navport ul li {
-        padding-left: 0;
-    }
-
-    nav.bg-navport ul li a {
-        color: var(--primary-color);
-        font-size: 18px;
-        font-weight: 600;
-        position: relative;
-        bottom: 2px;
-        left: 10px;
-        transition: .4s;
-    }
-
-    nav.bg-navport ul li a::after {
-        width: 0;
-        height: 2px;
-        background: transparent;
-        content: "";
-        position: absolute;
-        bottom: 2px;
-        left: 10px;
-        transition: .4s;
-    }
-
+    
     nav.bg-navport ul li a:hover::after {
         background: var(--primary-color);
-        width: 5%;
+        width: 0%;
     }
-
 
     /* HERO */
     #hero .fondo {
         height: 700px;
     }
 
-    #hero .description h1 {
-        font-size: 50px;
-        font-weight: 600;
-        padding-left: 50px;
-        margin-bottom: 30px;
-        margin-top: 80px;
-    }
-    
-    #hero .description p {
-        margin-left: 50px;
-        margin-bottom: 30px;
-    }
-    
-    #hero .description a {
-        margin-left: 50px;
-        border-radius: 10px;
-        text-decoration: none;
-        border: 5px solid #ffffff;
-        border-radius: 10px;
-        margin-bottom: 150px;
-    }
-    
     #hero .cont-foto .foto img {
-        width: 150px;
-        position: absolute;
-        margin-left: 150px;
-        margin-top: 50px;
+        width: 300px;
+        padding-top: 120px;
+        margin-left: 160px;
     }
 
 
 
     /* ABOUT */
-    #about .container h2 {
-        margin-left: 10px;
-    }
-
-    #about .container p {
-        margin-left: 20px;
-    }
-
-    .card h3 {
-        margin-left: 20px;
-        font-weight: 400;
-        margin-top: 40px;
-    }
-
-    .card img {
-        margin-left: 20px;
-        width: 200px;
-        margin-top: 15px;
-    }
-
-    .card h4 {
-        margin-top: 20px;
-        margin-left: 50px;
-        font-size: 20px;
-    }
-
-    .card p {
-        font-weight: 600;
-        margin-top: 20px;
-        margin-bottom: 80px;
-    }
 
     /* PORTFOLIO */
     #portfolio .container .cont-foto img {
         width: 300px;
     }
 
-    #portfolio .container h2 {
-        font-size: 40px;
-        margin-top: 50px;
-        margin-left: 10px;
-    }
-    
-    #portfolio .container p {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 600;
-        margin-top: 25px;
-        margin-left: 10px;
-        margin-bottom: 25px;
-    }
-    
     #portfolio .container a {
-        padding: 10px 15px;
-        margin-left: 10px;
+        margin: 20px;
     }
 }
