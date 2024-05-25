@@ -455,3 +455,40 @@ footer .container p {
         margin: 20px;
     }
 }
+
+@media screen and (max-width:599px){
+    nav .navbar-brand img {
+        width: 30px;
+        margin-left: 0;
+    }
+
+    
+    nav.bg-navport ul li a:hover::after {
+        background: var(--primary-color);
+        width: 0%;
+    }
+
+    /* HERO */
+    #hero .fondo {
+        height: 600px;
+    }
+
+    #hero .cont-foto .foto img {
+        width: 150px;
+        padding-top: 120px;
+        margin-left: 160px;
+    }
+
+
+
+    /* ABOUT */
+
+    /* PORTFOLIO */
+    #portfolio .container .cont-foto img {
+        width: 150px;
+    }
+
+    #portfolio .container a {
+        margin: 20px;
+    }
+}
