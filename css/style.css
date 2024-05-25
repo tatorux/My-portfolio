@@ -383,7 +383,7 @@ footer .container p {
 
 @media screen and (min-width:601px) and (max-width:768px) {
     nav .navbar-brand img {
-        width: 60px;
+        width: 40px;
         margin-left: 0;
     }
 
@@ -399,7 +399,7 @@ footer .container p {
     }
 
     #hero .cont-foto .foto img {
-        width: 150px;
+        width: 250px;
         padding-top: 120px;
         margin-left: 160px;
     }
@@ -410,7 +410,7 @@ footer .container p {
 
     /* PORTFOLIO */
     #portfolio .container .cont-foto img {
-        width: 150px;
+        width: 250px;
     }
 
     #portfolio .container a {
@@ -437,7 +437,7 @@ footer .container p {
     }
 
     #hero .cont-foto .foto img {
-        width: 150px;
+        width: 300px;
         padding-top: 120px;
         margin-left: 160px;
     }
@@ -448,7 +448,7 @@ footer .container p {
 
     /* PORTFOLIO */
     #portfolio .container .cont-foto img {
-        width: 100px;
+        width: 300px;
     }
 
     #portfolio .container a {
